@@ -1,0 +1,11 @@
+[Unit]
+Description=ROS2 Foxglove Bridge Service
+After=runswift_motion.service
+[Service]
+Type=simple
+User=nao
+ExecStartPre=/bin/bash -c "source /home/nao/.bashrc"
+ExecStart=/bin/bash -c "source /home/nao/.bashrc && source /home/nao/robot_ws/install/setup.bash && ros2 launch foxglove_bridge foxglove_bridge_launch.xml send_buffer_limit:=100000000"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

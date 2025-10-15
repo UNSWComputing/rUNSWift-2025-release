@@ -1,0 +1,11 @@
+[Unit]
+Description=ROS2 Runswift HRI Service
+After=network.target
+[Service]
+Type=simple
+User=nao
+ExecStartPre=/bin/bash -c "source /home/nao/.bashrc"
+ExecStart=/bin/bash -c "source /home/nao/.bashrc && source /home/nao/robot_ws/install/setup.bash && ros2 launch bringup hri_bringup.py"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

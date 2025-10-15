@@ -1,0 +1,6 @@
+sensor_msgs/Image image
+---
+# Response: The results of the detection
+bool success                # True if the processing was successful (regardless of detections)
+string message              # Additional status or error message
+RobotDetection[] detections # Array of detected robots (can be empty if none found)

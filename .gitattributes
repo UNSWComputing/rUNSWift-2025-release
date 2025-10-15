@@ -1,0 +1,23 @@
+*.cpp text=auto eol=lf
+*.hpp text=auto eol=lf
+*.py text=auto eol=lf
+*.md text=auto eol=lf
+*.sh text=auto eol=lf
+*.rs text=auto eol=lf
+*.rviz text=auto eol=lf
+*.mtl text=auto eol=lf
+*.obj text=auto eol=lf
+*.urdf text=auto eol=lf
+*.proto text=auto eol=lf
+*.ts text=auto eol=lf
+*.sql text=auto eol=lf
+Dockerfile text=auto eol=lf
+.gitignore text=auto eol=lf
+
+*.wav binary
+*.png binary
+*.pdf binary
+*.gmm binary
+*.ttf binary
+*.pca binary
+*.pkl binary

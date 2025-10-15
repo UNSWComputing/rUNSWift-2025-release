@@ -1,0 +1,11 @@
+[Unit]
+Description=Windows Startup Sound
+After=runswift_startup.service
+[Service]
+Type=simple
+User=nao
+ExecStartPre=/bin/bash -c "source /home/nao/.bashrc"
+ExecStart=/bin/bash -c "source /home/nao/.bashrc && aplay /home/nao/bin/windows-startup.wav"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

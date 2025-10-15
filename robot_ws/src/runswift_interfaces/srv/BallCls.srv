@@ -1,0 +1,10 @@
+sensor_msgs/Image[] images
+
+---
+bool[] ball_detection_results
+float32[] xs # x positions of the ball in the image
+float32[] ys # y positions of the ball in the image
+float64[] cls1_conf
+float64[] cls2_conf
+float64[] cls3_conf
+float64[] ball_pixel_radius 

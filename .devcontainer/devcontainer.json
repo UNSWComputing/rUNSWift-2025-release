@@ -1,0 +1,20 @@
+{
+	"name": "rUNSWift",
+	"dockerComposeFile": "../docker-compose.yml",
+	"service": "dev",
+	"updateRemoteUserUID": false,
+	"workspaceFolder": "/workspace",
+	"initializeCommand": "${localWorkspaceFolder}/.devcontainer/devcontainer_vscode_init.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-vscode.makefile-tools",
+				"llvm-vs-code-extensions.vscode-clangd",
+				"ms-vscode.cpptools",
+				"ms-python.python",
+				"ms-python.debugpy",
+				"nonanonno.vscode-ros2"
+			]
+		}
+	}
+}

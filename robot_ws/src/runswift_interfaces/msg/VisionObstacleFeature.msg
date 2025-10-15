@@ -1,0 +1,6 @@
+geometry_msgs/Point leftmost_coordinates
+geometry_msgs/Point rightmost_coordinates
+
+vision_msgs/Point2D leftmost_pixel_coordinates
+vision_msgs/Point2D rightmost_pixel_coordinates
+

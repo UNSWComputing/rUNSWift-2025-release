@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-model 
+  href="http://download.ros.org/schema/package_format3.xsd" 
+  schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <!-- Edit package configuration below -->
+  <name>vision</name>
+  <version>0.0.0</version>
+  <description>This package handles the vision for the rUNSWift team</description>
+  <maintainer email="unswrobocup@gmail.com">rUNSWift</maintainer>
+  <license>SEE LICENSE IN LICENSE</license>
+  <!-- End package configuration customization -->
+
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <member_of_group>rosidl_interface_packages</member_of_group>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>nao_lola_command_msgs</depend>
+  <depend>nao_lola_sensor_msgs</depend>
+  <depend>runswift_interfaces</depend>
+  <depend>rclcpp</depend>
+  <depend>std_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>usb_cam</depend>
+  <depend>cv_bridge</depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

@@ -1,0 +1,16 @@
+.cache
+
+build
+build-local
+install
+install-local
+log
+
+biped_interfaces
+nao_ik
+nao_lola
+nao_phase_provider
+sole_poses_ims
+walk
+nao_pos
+naosoccer_pos_action

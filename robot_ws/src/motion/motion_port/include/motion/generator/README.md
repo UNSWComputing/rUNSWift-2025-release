@@ -1,0 +1,13 @@
+adding a readme because these generators are confusing:
+- ActionGenerator : Basically runs pos files
+- BodyModel : Not explicitly a generator, seems to help with some modelling that some generators use. not sure why it's in this folder
+- ClippedGenerator : wraps a generator and clips the joint values
+- UnstiffGenerator : Unstiffs the robot. Generally unused as our pattern is often to use pos files that end in unstiffening but used in some edge cases where we want to be explicit
+- DistributedGenerator : Chooses between generators based on action request
+- Generator : parent class
+- GetupGenerator : basically an action generator but does some choosing of which getup
+- HeadGenerator : moves the head
+- NullGenerator : for when no action request is sent
+- RefPickupGenerator : Theoretically has timed stopping over a stand ActionGenerator. I think this means when stopped it first completes it's stand. Not sure why it wasn't just a stand generator with higher priority. uses 100 for stopping (v5 leftover should probably be 83 since pos duration is 1000 and generators run once a tick)
+- Walk2014Generator : walks and kicks and probably some other stuff
+- WalkEnginePreProcessor : I'm not sure

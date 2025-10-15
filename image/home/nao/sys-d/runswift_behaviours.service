@@ -1,0 +1,11 @@
+[Unit]
+Description=ROS2 Runswift Behaviours Service
+After=runswift_motion.service
+[Service]
+Type=simple
+User=nao
+ExecStartPre=/bin/bash -c "source /home/nao/.bashrc"
+ExecStart=/bin/bash -c "source /home/nao/.bashrc && source /home/nao/robot_ws/install/setup.bash && ros2 launch bringup behaviours_bringup.py"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

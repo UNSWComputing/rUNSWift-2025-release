@@ -1,0 +1,17 @@
+<!--This file is deprecated. Use the py launch file-->
+<launch>
+    <node
+        pkg="stateestimation"
+        exec="SelfEstimator"
+        name="self"
+        output="screen">
+    </node>
+
+    <node
+        pkg="stateestimation"
+        exec="BallEstimator"
+        name="ball"
+        output="screen">
+    </node>
+</launch>
+

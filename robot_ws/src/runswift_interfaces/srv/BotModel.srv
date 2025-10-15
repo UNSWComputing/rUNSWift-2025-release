@@ -1,0 +1,21 @@
+sensor_msgs/Image[] images
+
+---
+bool[] ball_detection_results
+float64[] ball_pixel_radius 
+float32[] ball_xs # x positions of the ball in the image
+float32[] ball_ys # y positions of the ball in the image
+float64[] ball_conf
+
+bool[] obstacles_detection_results
+float32[] obstacle_leftmost_xs # x positions of the obstacles in the image
+float32[] obstacle_rightmost_xs # x positions of the obstacles in the image
+float32[] obstacle_biggest_ys # y positions of the obstacles in the image
+float64[] obstacles_conf
+
+#bool[] penalty_detection_results -- temporary commented this out, because penaly cross detection is reliable enough
+#float32[] penalty_xs # x positions of the penalty in the image
+#float32[] penalty_ys # y positions of the penalty in the image
+#float64[] penalty_conf
+
+

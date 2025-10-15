@@ -1,0 +1,1235 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 138
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /Grid1
+        - /TF1
+        - /Marker1
+        - /Marker1/Namespaces1
+      Splitter Ratio: 0.5
+    Tree Height: 1379
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz_common/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: ""
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 1000
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 1
+      Frames:
+        Accelerometer:
+          Value: false
+        All Enabled: false
+        Battery:
+          Value: false
+        CameraBottom:
+          Value: false
+        CameraTop:
+          Value: false
+        ChestBoard/Button:
+          Value: false
+        Gaze:
+          Value: false
+        Gyrometer:
+          Value: false
+        Head:
+          Value: false
+        Head/Touch/Front:
+          Value: false
+        Head/Touch/Middle:
+          Value: false
+        Head/Touch/Rear:
+          Value: false
+        HeadPitch:
+          Value: false
+        HeadPitchBothCollision_shape:
+          Value: false
+        HeadPitch_link:
+          Value: false
+        HeadYaw:
+          Value: false
+        HeadYaw_link:
+          Value: false
+        LAnklePitch:
+          Value: false
+        LAnklePitchSphereCollision_shape:
+          Value: false
+        LAnklePitch_link:
+          Value: false
+        LAnkleRoll:
+          Value: false
+        LAnkleRollBothCollision_shape:
+          Value: false
+        LAnkleRoll_link:
+          Value: false
+        LArm:
+          Value: false
+        LElbowRoll:
+          Value: false
+        LElbowRollBothCollision_shape:
+          Value: false
+        LElbowRollSphereCollision_shape:
+          Value: false
+        LElbowRoll_link:
+          Value: false
+        LElbowYaw:
+          Value: false
+        LElbowYaw_link:
+          Value: false
+        LFinger11_link:
+          Value: false
+        LFinger12_link:
+          Value: false
+        LFinger13_link:
+          Value: false
+        LFinger21_link:
+          Value: false
+        LFinger22_link:
+          Value: false
+        LFinger23_link:
+          Value: false
+        LFoot/Bumper/Left:
+          Value: false
+        LFoot/Bumper/Right:
+          Value: false
+        LFoot/FSR/FrontLeft:
+          Value: false
+        LFoot/FSR/FrontRight:
+          Value: false
+        LFoot/FSR/RearLeft:
+          Value: false
+        LFoot/FSR/RearRight:
+          Value: false
+        LHand/Touch/Back:
+          Value: false
+        LHand/Touch/Left:
+          Value: false
+        LHand/Touch/Right:
+          Value: false
+        LHand_actuator_frame:
+          Value: false
+        LHipPitch:
+          Value: false
+        LHipPitchBothCollision_shape:
+          Value: false
+        LHipPitchMidCollision_shape:
+          Value: false
+        LHipPitch_link:
+          Value: false
+        LHipRoll:
+          Value: false
+        LHipRoll_link:
+          Value: false
+        LHipYawPitch:
+          Value: false
+        LHipYawPitchCollision_shape:
+          Value: false
+        LHipYawPitch_link:
+          Value: false
+        LKneePitch:
+          Value: false
+        LKneePitchBothCollision_shape:
+          Value: false
+        LKneePitch_link:
+          Value: false
+        LLeg:
+          Value: false
+        LShoulderPitch:
+          Value: false
+        LShoulderPitch_link:
+          Value: false
+        LShoulderRoll:
+          Value: false
+        LShoulderRoll_link:
+          Value: false
+        LThumb1_link:
+          Value: false
+        LThumb2_link:
+          Value: false
+        LWristYaw:
+          Value: false
+        LWristYaw_link:
+          Value: false
+        MicroFrontLeft:
+          Value: false
+        MicroFrontRight:
+          Value: false
+        MicroRearLeft:
+          Value: false
+        MicroRearRight:
+          Value: false
+        MicrophoneFrame:
+          Value: false
+        RAnklePitch:
+          Value: false
+        RAnklePitchSphereCollision_shape:
+          Value: false
+        RAnklePitch_link:
+          Value: false
+        RAnkleRoll:
+          Value: false
+        RAnkleRollBothCollision_shape:
+          Value: false
+        RAnkleRoll_link:
+          Value: false
+        RArm:
+          Value: false
+        RElbowRoll:
+          Value: false
+        RElbowRollBothCollision_shape:
+          Value: false
+        RElbowRollSphereCollision_shape:
+          Value: false
+        RElbowRoll_link:
+          Value: false
+        RElbowYaw:
+          Value: false
+        RElbowYaw_link:
+          Value: false
+        RFinger11_link:
+          Value: false
+        RFinger12_link:
+          Value: false
+        RFinger13_link:
+          Value: false
+        RFinger21_link:
+          Value: false
+        RFinger22_link:
+          Value: false
+        RFinger23_link:
+          Value: false
+        RFoot/Bumper/Left:
+          Value: false
+        RFoot/Bumper/Right:
+          Value: false
+        RFoot/FSR/FrontLeft:
+          Value: false
+        RFoot/FSR/FrontRight:
+          Value: false
+        RFoot/FSR/RearLeft:
+          Value: false
+        RFoot/FSR/RearRight:
+          Value: false
+        RHand/Touch/Back:
+          Value: false
+        RHand/Touch/Left:
+          Value: false
+        RHand/Touch/Right:
+          Value: false
+        RHand_actuator_frame:
+          Value: false
+        RHipPitch:
+          Value: false
+        RHipPitchBothCollision_shape:
+          Value: false
+        RHipPitchMidCollision_shape:
+          Value: false
+        RHipPitch_link:
+          Value: false
+        RHipRoll:
+          Value: false
+        RHipRoll_link:
+          Value: false
+        RHipYawPitch:
+          Value: false
+        RHipYawPitchCollision_shape:
+          Value: false
+        RHipYawPitch_link:
+          Value: false
+        RKneePitch:
+          Value: false
+        RKneePitchBothCollision_shape:
+          Value: false
+        RKneePitch_link:
+          Value: false
+        RLeg:
+          Value: false
+        RShoulderPitch:
+          Value: false
+        RShoulderPitch_link:
+          Value: false
+        RShoulderRoll:
+          Value: false
+        RShoulderRoll_link:
+          Value: false
+        RThumb1_link:
+          Value: false
+        RThumb2_link:
+          Value: false
+        RWristYaw:
+          Value: false
+        RWristYaw_link:
+          Value: false
+        Sonar/Left:
+          Value: false
+        Sonar/Right:
+          Value: false
+        SpeakerLeft:
+          Value: false
+        SpeakerRight:
+          Value: false
+        TorsoDownBackCollision_shape:
+          Value: false
+        TorsoDownCollision_shape:
+          Value: false
+        TorsoUpBackCollision_shape:
+          Value: false
+        TorsoUpCollision_shape:
+          Value: false
+        Torso_link:
+          Value: false
+        base_footprint:
+          Value: false
+        base_link:
+          Value: false
+        corrected_torso:
+          Value: true
+        robot_diq:
+          Value: false
+        world:
+          Value: true
+      Marker Scale: 0.5
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          base_footprint:
+            corrected_torso:
+              base_link:
+                Torso_link:
+                  Accelerometer:
+                    {}
+                  Battery:
+                    {}
+                  ChestBoard/Button:
+                    {}
+                  Gyrometer:
+                    {}
+                  HeadYaw_link:
+                    HeadPitch_link:
+                      CameraBottom:
+                        {}
+                      CameraTop:
+                        {}
+                      Gaze:
+                        {}
+                      Head:
+                        {}
+                      Head/Touch/Front:
+                        {}
+                      Head/Touch/Middle:
+                        {}
+                      Head/Touch/Rear:
+                        {}
+                      HeadPitch:
+                        {}
+                      HeadPitchBothCollision_shape:
+                        {}
+                      MicroFrontLeft:
+                        {}
+                      MicroFrontRight:
+                        {}
+                      MicroRearLeft:
+                        {}
+                      MicroRearRight:
+                        {}
+                      MicrophoneFrame:
+                        {}
+                      SpeakerLeft:
+                        {}
+                      SpeakerRight:
+                        {}
+                    HeadYaw:
+                      {}
+                  LHipYawPitch_link:
+                    LHipRoll_link:
+                      LHipPitch_link:
+                        LHipPitch:
+                          {}
+                        LHipPitchBothCollision_shape:
+                          {}
+                        LHipPitchMidCollision_shape:
+                          {}
+                        LKneePitch_link:
+                          LAnklePitch_link:
+                            LAnklePitch:
+                              {}
+                            LAnklePitchSphereCollision_shape:
+                              {}
+                            LAnkleRoll_link:
+                              LAnkleRoll:
+                                {}
+                              LAnkleRollBothCollision_shape:
+                                {}
+                              LFoot/Bumper/Left:
+                                {}
+                              LFoot/Bumper/Right:
+                                {}
+                              LFoot/FSR/FrontLeft:
+                                {}
+                              LFoot/FSR/FrontRight:
+                                {}
+                              LFoot/FSR/RearLeft:
+                                {}
+                              LFoot/FSR/RearRight:
+                                {}
+                              LLeg:
+                                {}
+                          LKneePitch:
+                            {}
+                          LKneePitchBothCollision_shape:
+                            {}
+                      LHipRoll:
+                        {}
+                    LHipYawPitch:
+                      {}
+                    LHipYawPitchCollision_shape:
+                      {}
+                  LShoulderPitch_link:
+                    LShoulderPitch:
+                      {}
+                    LShoulderRoll_link:
+                      LElbowYaw_link:
+                        LElbowRoll_link:
+                          LElbowRoll:
+                            {}
+                          LElbowRollBothCollision_shape:
+                            {}
+                          LElbowRollSphereCollision_shape:
+                            {}
+                          LWristYaw_link:
+                            LArm:
+                              {}
+                            LFinger11_link:
+                              LFinger12_link:
+                                LFinger13_link:
+                                  {}
+                            LFinger21_link:
+                              LFinger22_link:
+                                LFinger23_link:
+                                  {}
+                            LHand/Touch/Back:
+                              {}
+                            LHand/Touch/Left:
+                              {}
+                            LHand/Touch/Right:
+                              {}
+                            LHand_actuator_frame:
+                              {}
+                            LThumb1_link:
+                              LThumb2_link:
+                                {}
+                            LWristYaw:
+                              {}
+                        LElbowYaw:
+                          {}
+                      LShoulderRoll:
+                        {}
+                  RHipYawPitch_link:
+                    RHipRoll_link:
+                      RHipPitch_link:
+                        RHipPitch:
+                          {}
+                        RHipPitchBothCollision_shape:
+                          {}
+                        RHipPitchMidCollision_shape:
+                          {}
+                        RKneePitch_link:
+                          RAnklePitch_link:
+                            RAnklePitch:
+                              {}
+                            RAnklePitchSphereCollision_shape:
+                              {}
+                            RAnkleRoll_link:
+                              RAnkleRoll:
+                                {}
+                              RAnkleRollBothCollision_shape:
+                                {}
+                              RFoot/Bumper/Left:
+                                {}
+                              RFoot/Bumper/Right:
+                                {}
+                              RFoot/FSR/FrontLeft:
+                                {}
+                              RFoot/FSR/FrontRight:
+                                {}
+                              RFoot/FSR/RearLeft:
+                                {}
+                              RFoot/FSR/RearRight:
+                                {}
+                              RLeg:
+                                {}
+                          RKneePitch:
+                            {}
+                          RKneePitchBothCollision_shape:
+                            {}
+                      RHipRoll:
+                        {}
+                    RHipYawPitch:
+                      {}
+                    RHipYawPitchCollision_shape:
+                      {}
+                  RShoulderPitch_link:
+                    RShoulderPitch:
+                      {}
+                    RShoulderRoll_link:
+                      RElbowYaw_link:
+                        RElbowRoll_link:
+                          RElbowRoll:
+                            {}
+                          RElbowRollBothCollision_shape:
+                            {}
+                          RElbowRollSphereCollision_shape:
+                            {}
+                          RWristYaw_link:
+                            RArm:
+                              {}
+                            RFinger11_link:
+                              RFinger12_link:
+                                RFinger13_link:
+                                  {}
+                            RFinger21_link:
+                              RFinger22_link:
+                                RFinger23_link:
+                                  {}
+                            RHand/Touch/Back:
+                              {}
+                            RHand/Touch/Left:
+                              {}
+                            RHand/Touch/Right:
+                              {}
+                            RHand_actuator_frame:
+                              {}
+                            RThumb1_link:
+                              RThumb2_link:
+                                {}
+                            RWristYaw:
+                              {}
+                        RElbowYaw:
+                          {}
+                      RShoulderRoll:
+                        {}
+                  Sonar/Left:
+                    {}
+                  Sonar/Right:
+                    {}
+                  TorsoDownBackCollision_shape:
+                    {}
+                  TorsoDownCollision_shape:
+                    {}
+                  TorsoUpBackCollision_shape:
+                    {}
+                  TorsoUpCollision_shape:
+                    {}
+            robot_diq:
+              {}
+      Update Interval: 0
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: false
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /robot_description
+      Enabled: true
+      Links:
+        Accelerometer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        All Links Enabled: true
+        Battery:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        CameraBottom:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        CameraTop:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        ChestBoard/Button:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Expand Joint Details: false
+        Expand Link Details: false
+        Expand Tree: false
+        Gaze:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Gyrometer:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head/Touch/Front:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head/Touch/Middle:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Head/Touch/Rear:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        HeadPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        HeadPitchBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        HeadPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        HeadYaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        HeadYaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LAnklePitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LAnklePitchSphereCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LAnklePitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LAnkleRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LAnkleRollBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LAnkleRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LElbowRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LElbowRollBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LElbowRollSphereCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LElbowRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LElbowYaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LElbowYaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFinger23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/Bumper/Left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/Bumper/Right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/FSR/FrontLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/FSR/FrontRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/FSR/RearLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LFoot/FSR/RearRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHand/Touch/Back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHand/Touch/Left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHand/Touch/Right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHand_actuator_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipPitchBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHipPitchMidCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHipPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipYawPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LHipYawPitchCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LHipYawPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LKneePitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LKneePitchBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        LKneePitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LShoulderPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LShoulderPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LShoulderRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LShoulderRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LThumb1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LThumb2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LWristYaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        LWristYaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Link Tree Style: Links in Alphabetic Order
+        MicroFrontLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        MicroFrontRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        MicroRearLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        MicroRearRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        MicrophoneFrame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RAnklePitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RAnklePitchSphereCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RAnklePitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RAnkleRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RAnkleRollBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RAnkleRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RArm:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RElbowRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RElbowRollBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RElbowRollSphereCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RElbowRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RElbowYaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RElbowYaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger11_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger12_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger13_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger21_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger22_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFinger23_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/Bumper/Left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/Bumper/Right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/FSR/FrontLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/FSR/FrontRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/FSR/RearLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RFoot/FSR/RearRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHand/Touch/Back:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHand/Touch/Left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHand/Touch/Right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHand_actuator_frame:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipPitchBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHipPitchMidCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHipPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipYawPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RHipYawPitchCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RHipYawPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RKneePitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RKneePitchBothCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        RKneePitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RLeg:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RShoulderPitch:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RShoulderPitch_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RShoulderRoll:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RShoulderRoll_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RThumb1_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RThumb2_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RWristYaw:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        RWristYaw_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Sonar/Left:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        Sonar/Right:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SpeakerLeft:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        SpeakerRight:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        TorsoDownBackCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        TorsoDownCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        TorsoUpBackCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        TorsoUpCollision_shape:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+          Value: true
+        Torso_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+        base_link:
+          Alpha: 1
+          Show Axes: false
+          Show Trail: false
+      Mass Properties:
+        Inertia: false
+        Mass: false
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/Marker
+      Enabled: true
+      Name: Marker
+      Namespaces:
+        {}
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /soccer_field
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: world
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+    - Class: rviz_default_plugins/SetInitialPose
+      Covariance x: 0.25
+      Covariance y: 0.25
+      Covariance yaw: 0.06853891909122467
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Single click: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /clicked_point
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 10.438583374023438
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: -0.32239019870758057
+        Y: -0.34781840443611145
+        Z: -0.5985697507858276
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 1.5697963237762451
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 6.230579853057861
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1856
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd0000000400000000000001da00000651fc0200000008fb0000001200530065006c0065006300740069006f006e00000001e10000009b000000ab00fffffffb0000001e0054006f006f006c002000500072006f007000650072007400690065007302000001ed000001df00000185000000a3fb000000120056006900650077007300200054006f006f02000001df000002110000018500000122fb000000200054006f006f006c002000500072006f0070006500720074006900650073003203000002880000011d000002210000017afb000000100044006900730070006c0061007900730100000069000006510000017800fffffffb0000002000730065006c0065006300740069006f006e00200062007500660066006500720200000138000000aa0000023a00000294fb00000014005700690064006500530074006500720065006f02000000e6000000d2000003ee0000030bfb0000000c004b0069006e0065006300740200000186000001060000030c0000026100000001000002b300000651fc0200000005fb0000001e0054006f006f006c002000500072006f00700065007200740069006500730100000041000000780000000000000000fb0000000a0049006d0061006700650000000069000003d20000000000000000fb0000000a0049006d006100670065010000003b0000028c0000000000000000fb0000000a005600690065007700730100000069000006510000012300fffffffb0000001200530065006c0065006300740069006f006e010000025a000000b200000000000000000000000200000490000000a9fc0100000001fb0000000a00560069006500770073030000004e00000080000002e1000001970000000300000c8000000051fc0100000002fb0000000800540069006d0065010000000000000c800000046000fffffffb0000000800540069006d00650100000000000004500000000000000000000007db0000065100000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: false
+  Time:
+    collapsed: false
+  Tool Properties:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 3200
+  X: 0
+  Y: 0

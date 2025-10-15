@@ -1,0 +1,21 @@
+<launch>
+    <!-- Declare the player_number argument -->
+    <arg name="player_number" default="1" description="Player number for this behaviour node" />
+
+    <!-- Create the BehaviourNode -->
+    <node
+        pkg="behaviours"
+        exec="node"
+        name="behaviour_node_$(var player_number)"
+        namespace="robot$(var player_number)"
+        output="screen">
+        <!-- Pass parameters -->
+        <param name="player_number" value="$(var player_number)" />
+
+        <!-- Remap topics -->
+        <remap from="/motion_command" to="/robot$(var player_number)/motion_command" />
+        <remap from="/stateestimation/SeBallsAbsolute" to="/robot$(var player_number)/stateestimation/SeBallsAbsolute" />
+        <remap from="/ball_base" to="/robot$(var player_number)/ball_base" />
+        <remap from="/VBalls" to="/robot$(var player_number)/VBalls" />
+    </node>
+</launch>

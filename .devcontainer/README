@@ -1,0 +1,109 @@
+# rUNSWift Development Container
+
+This repository provides a containerized development environment for ROS2-based robotics development. The setup uses Visual Studio Code's Development Containers feature to provide a consistent, reproducible development environment with all necessary tools pre-installed.
+
+## Prerequisites
+
+### Mandatory
+- [Docker](https://docs.docker.com/get-docker/)
+
+### Optional
+- [Visual Studio Code](https://code.visualstudio.com/) 
+- [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+
+## Features
+
+- Ubuntu 22.04 base system
+- ROS2 Humble Desktop (full installation)
+- NAO robot support (nao-lola)
+- GUI support via noVNC for apple arm64 user.
+- Common development tools
+- Research focused SSH configuration for robot access
+
+## Quick Start
+
+1. Press `ctrl/cmd + shift + p` or `F1`
+2. Select "Dev Containers: Reopen in Container"
+3. To exit, press the same key combination and select "Dev Containers:Reopen folder locally"
+
+Details in https://joshchans.vercel.app/ros2-setup-guide-13cd25e49f8080b6a39fc51a316bd431
+
+## Container Structure
+
+### Development Container Configuration
+The `.devcontainer/devcontainer.json` file just uses the docker-compose config, which means VSCode should play nicely with the whole setup.
+
+## Using the Development Environment
+
+### Accessing the GUI
+
+1. Start the VNC server:
+   ```bash
+   /home/ubuntu/entryfile.sh
+   ```
+
+2. Access the GUI through your web browser:
+   ```
+   http://localhost:8080
+   ```
+
+### ROS2 Development
+
+The container comes with ROS2 Humble pre-configured:
+- ROS2 environment is automatically sourced in `.bashrc`
+- rosdep is initialized and updated
+- Common ROS2 development tools are installed
+
+### Working with NAO Robots
+
+The environment is pre-configured for NAO robot development:
+- NAO-specific ROS2 packages are installed
+- SSH is configured for easy robot access
+- Required tools for NAO development are included
+
+## Customization
+
+### Adding New Tools
+
+1. Edit the Dockerfile to add new packages:
+   ```dockerfile
+   RUN sudo apt install -y your-package-name
+   ```
+
+2. Rebuild the container:
+   - Press F1 in VS Code
+   - Select "Dev Containers: Rebuild Container"
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Container fails to build**
+   - Ensure Docker is running
+   - Check internet connection
+   - Verify Docker has sufficient resources
+
+2. **GUI not accessible**
+   - Ensure ports 8080 and 5900 are not in use
+   - Check if `~/entryfile.sh` is executed
+   - Verify the VNC server is running: `ps aux | grep vnc`
+
+3. **ROS2 commands not found**
+   - Verify source command in `.bashrc`: `source /opt/ros/humble/setup.bash`
+   - Check ROS2 installation: `ros2 --help`
+
+### Network Issues
+
+The container runs with `--network=host`, which means:
+- It shares the host's network stack
+- All ports are automatically exposed
+- Container can access all local network resources
+- Cross container ros communication is difficult if you are on Mac M series. However, properly using the make file should prevent creating multiple container to start with.
+
+
+## Q&A
+### Why not using ros-humble based image as a base image?
+- Ubuntu22.04 is multi arch image, while all of the ros2 based ones we discovered were single arch based image. For more details read https://docs.docker.com/build/building/multi-platform/
+- By using single arch based image it creates multiple dockerfile and harder to maintain
+- Tradeoff is longer time to build the images for the firstime when using ubuntu22.04 base image however as long as we be aware of inserting lines into Dockerfile and it should be cached for all future builds to avoid long building time for ros2 humble install.

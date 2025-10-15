@@ -1,0 +1,23 @@
+[package]
+name = "ros2-dump-to-bag"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# protobuf
+prost = "0.13.3"
+prost-build = "0.13.3"
+# display
+minifb = "0.27.0"
+# cmd args
+clap = { version = "4.5.23", features = ["derive"] }
+# format specific stuff
+cdr = "0.2.4"
+serde = { version = "1.0.215", features = ["derive"] }
+hex = "0.4.3"
+rusqlite = "0.32.1"
+# progress bar
+indicatif = "0.17.9"
+
+[build-dependencies]
+prost-build = "0.13.3"

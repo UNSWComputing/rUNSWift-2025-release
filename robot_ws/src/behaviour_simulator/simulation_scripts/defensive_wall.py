@@ -1,0 +1,13 @@
+robot1 = Robot(player_number=1, initial_position=(0.0, 0.0), initial_heading=0.0)
+robot2 = Robot(player_number=2, initial_position=(2000.0, 500.0), initial_heading=3.1415)
+robot3 = Robot(player_number=3, initial_position=(2000.0, 0.0), initial_heading=3.1415)
+robot4 = Robot(player_number=4, initial_position=(2000.0, -500.0), initial_heading=3.1415)
+robot5 = Robot(player_number=5, initial_position=(2000.0, 1000.0), initial_heading=3.1415)
+simulator.add_robot(robot1)
+simulator.add_robot(robot2)
+simulator.add_robot(robot3)
+simulator.add_robot(robot4)
+simulator.add_robot(robot5)
+ball = Ball(initial_position=(500.0, 0.0))
+simulator.set_ball(ball)
+

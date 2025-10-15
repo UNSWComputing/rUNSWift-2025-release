@@ -1,0 +1,4 @@
+sensor_msgs/Image[] images_binarised
+---
+string[] ffeature_clses
+uint8[] ffeature_confs

@@ -1,0 +1,11 @@
+[Unit]
+Description=Say Random Errors
+After=runswift_errors.service
+[Service]
+Type=simple
+User=nao
+ExecStartPre=/bin/bash -c "source /home/nao/.bashrc"
+ExecStart=/bin/bash -c "source /home/nao/.bashrc && /home/nao/bin/errors.sh"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target

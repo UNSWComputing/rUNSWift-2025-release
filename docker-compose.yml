@@ -1,0 +1,31 @@
+services:
+  dev:
+    build: .
+    image: runswift/devcontainer
+    container_name: runswift-devcontainer
+    privileged: true
+    network_mode: host
+    working_dir: /workspace
+    platform: linux/amd64
+    volumes:
+      - ./:/workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${HOME}/.ssh:/home/ubuntu/.ssh
+      - ${XAUTHORITY:-/dev/null}:/home/ubuntu/.Xauthority
+      - ${XAUTHORITY:-/dev/null}:/root/.Xauthority
+    environment:
+      - DISPLAY
+      - WAYLAND_DISPLAY
+    command: sleep infinity
+    devices:
+      - /dev/dri
+
+    # # Warning: Uncommenting lines below only works if you have a
+    # # NVIDIA GPU. 
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - capabilities: [gpu]
+    #           count: all

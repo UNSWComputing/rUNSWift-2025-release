@@ -1,0 +1,10 @@
+#!/bin/bash
+#nao-extract.sh --whistles "$@"
+# use this script to extract whistles from the robot when working with whistle_detector.py test mode
+for robot in "$@"
+do
+   echo "#################"
+   echo -e "\e[32mExtracting whistles from $robot\e[0m"
+   rsync -zvpr nao@$robot:whistle/* test/audio/$robot
+   echo -e "\e[34mFinished\e[0m"
+done

@@ -1,0 +1,11 @@
+[Unit]
+Description=ROS2 Runswift Motion Service
+After=lola.service
+[Service]
+Type=simple
+User=nao
+
+ExecStart=/usr/bin/env bash -lc "source ~/.bashrc && source ~/robot_ws/install/setup.bash && ros2 launch bringup motion_bringup.py"
+RemainAfterExit=yes
+[Install]
+WantedBy=multi-user.target
